@@ -2,7 +2,7 @@
 
 ## Description
 
-<img src="https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/figures/Global_solution.PNG" width="60%" align="right"/>
+<img src="https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/figures/Global_solution.PNG" width="50%" align="right"/>
 <p style="text-align: justify"> <strong> FLASH-RL</strong> (Federated Learning Addressing System and Static Heterogeneity using Reinforcement Learning) is a novel and effective strategy for client selection in Federated Learning (FL) using Reinforcement Learning (RL). It addresses the challenges of system and static heterogeneity by considering the computational capabilities of clients, such as processing power and network connectivity, along with their data characteristics. <strong>FLASH-RL</strong> introduces a reputation-based utility function to evaluate client contributions based on their current and past performance. Additionally, an adapted algorithm is proposed to expedite the DDQL learning process.
 </p>
 
