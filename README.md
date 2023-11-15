@@ -65,7 +65,7 @@ The following table summarizes the results we obtained by comparing FLASH-RL wit
 
 
 <div style="text-align:center;">
-  <img src="https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/figures/overall_results.PNG" width="80%"/>
+  <img src="https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/figures/overall_results.PNG" width="100%"/>
 </div>
 
 This results highlights the effectiveness of our method in striking a desirable balance between maximizing accuracy and minimizing end-to-end latency.
@@ -74,7 +74,7 @@ This results highlights the effectiveness of our method in striking a desirable 
 The following figure shows the progression of the F1 score for the global model and end-to-end latency for each MobiAct division.
 
 <div style="text-align:center;">
-  <img src="https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/figures/use_case.PNG" width="80%"/>
+  <img src="https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/figures/use_case.PNG" width="90%"/>
 </div>
 
 The Figure highlights FLASH-RL’s ability to find a compromise between maximizing the F1-score of the overall model and minimizing end-to-end latency
