@@ -8,7 +8,8 @@
 
 [**Features**](#Features)
 | [**Tutorial**](https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/tutorial.ipynb)
-| [**Structure**](#Code)
+| [**Structure**](#Code-structure)
+| [**References**](#How-to-cite)
 
 ## Features
 
@@ -41,7 +42,7 @@ FLASH-RL has been implemented and tested with the following versions:
 - NumPy (v1.24.3).
 
 
-## Code Structure
+## Code structure
 
 
 ```
