@@ -374,7 +374,7 @@ class Server_FedDRL(object):
         
             # Test the global model each round
             if (verbose_test == 1):
-                print("Tour d'entrainement n :", (comm_round+1),", Test accuarcy : ", round(acc_test.numpy()*100, 2) ,", Test loss :", round(loss_test, 2))
+                print("Training round n :", (comm_round+1),", Test accuarcy : ", round(acc_test.numpy()*100, 2) ,", Test loss :", round(loss_test, 2))
                 print("*************************************************************************************")
                 
             if (acc_test > best_accuracy):
@@ -557,7 +557,7 @@ class Server_FedDRL(object):
         
             # Test the global model each round
             if (verbose_test == 1):
-                print("Tour d'entrainement n :", (comm_round+1),", Test accuarcy : ", round(acc_test*100, 2) ,", Test F1_score :", round(f1score_test*100, 2)," Test loss :", round(loss_test, 2))
+                print("Training round n :", (comm_round+1),", Test accuarcy : ", round(acc_test*100, 2) ,", Test F1_score :", round(f1score_test*100, 2)," Test loss :", round(loss_test, 2))
                 print("Test Recall : ", round(recall_test*100, 2), "Test Precision : ", round(precision_test*100, 2))
                 print("*************************************************************************************")
                 

@@ -1,1 +1,0 @@
-This folder is empty it will contain data divisions of cifar-10.

@@ -462,7 +462,7 @@ class Server_FLASHRL(object):
         
             # Test the global model each round
             if (verbose_test == 1):
-                print("Tour d'entrainement n :", (comm_round+1),", Test accuarcy : ", round(Accuray_global_t.numpy()*100, 2) ,", Test loss :", round(loss_test, 2))
+                print("Training round n :", (comm_round+1),", Test accuarcy : ", round(Accuray_global_t.numpy()*100, 2) ,", Test loss :", round(loss_test, 2))
                 print("*************************************************************************************")
                 
                 
@@ -509,7 +509,7 @@ class Server_FLASHRL(object):
             
             reputation_list.append(copy.deepcopy(reputation_clients_t))
             reward = np.array(reputation_clients_t[active_clients_index])
-            print("the reward is ", reward)
+            #print("the reward is ", reward)
 
             rewards.append(reward)
             
@@ -784,7 +784,7 @@ class Server_FLASHRL(object):
         
             # Tester le modele gloable chaque round
             if (verbose_test == 1):
-                print("Tour d'entrainement n :", (comm_round+1),", Test accuarcy : ", round(acc_test*100, 2) ,", Test F1_score :", round(F1score_global_t*100, 2)," Test loss :", round(loss_test, 2))
+                print("Training round n :", (comm_round+1),", Test accuarcy : ", round(acc_test*100, 2) ,", Test F1_score :", round(F1score_global_t*100, 2)," Test loss :", round(loss_test, 2))
                 print("Test Recall : ", round(recall_test*100, 2), "Test Precision : ", round(precision_test*100, 2))
                 print("*************************************************************************************")
                 
