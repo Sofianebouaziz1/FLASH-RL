@@ -8,6 +8,7 @@
 
 [**Features**](#Features)
 | [**Tutorial**](https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/tutorial.ipynb)
+| [**Structure**](#Code)
 
 ## Features
 
