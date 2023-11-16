@@ -10,11 +10,12 @@
 [**Features**](#Features)
 | [**Tutorial**](https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/tutorial.ipynb)
 | [**Structure**](#Code-structure)
+| [**Paper**]([#Code-structure](https://arxiv.org/abs/2311.06917))
 | [**References**](#How-to-cite)
 
 ## Features
 
-FLASH-RL package offers the following features:
+FLASH-RL framework offers the following features:
 
 * A FL system built from scratch, enabling the simulation of a server and several clients.
 * A client selection in FL based on RL and more specifically on an adapted Double Deep Q Learning (DDQL) algorithm. This project marks the first release of a source code for this problematic.
@@ -26,12 +27,6 @@ FLASH-RL package offers the following features:
 
 ## Paper
 FLASH-RL's paper has been accepted in the 41st IEEE International Conference on Computer Design (ICCD 2023). Please refer to the arXiv version [here] (https://arxiv.org/abs/2311.06917) for the full paper.
-
-## Authors 
-
-FLASH-RL has been developed by Sofiane Bouaziz, Hadjer Benmeziane, Youcef Imine, Leila Hamdad, Smail Niar and Hamza Ouarnoughi.
-
-You can contact us by opening a new issue in the repository.
 
 ## Requirements
 FLASH-RL has been implemented and tested with the following versions: 
@@ -84,6 +79,13 @@ The following figure shows the progression of the F1 score for the global model 
 
 The Figure highlights FLASH-RL’s ability to find a compromise between maximizing the F1-score of the overall model and minimizing end-to-end latency
 
+
+
+## Authors 
+
+FLASH-RL has been developed by Sofiane Bouaziz, Hadjer Benmeziane, Youcef Imine, Leila Hamdad, Smail Niar and Hamza Ouarnoughi.
+
+You can contact us by opening a new issue in the repository.
 
 ## How to cite?
 In case you are using the FLASH-RL for your research, please consider citing our work::
