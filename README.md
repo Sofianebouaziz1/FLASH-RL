@@ -10,7 +10,7 @@
 [**Features**](#Features)
 | [**Tutorial**](https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/tutorial.ipynb)
 | [**Structure**](#Code-structure)
-| [**Paper**]([#Code-structure](https://arxiv.org/abs/2311.06917))
+| [**Paper**](https://arxiv.org/abs/2311.06917)
 | [**References**](#How-to-cite)
 
 ## Features
