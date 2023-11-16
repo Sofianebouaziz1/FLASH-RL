@@ -88,7 +88,7 @@ FLASH-RL has been developed by Sofiane Bouaziz, Hadjer Benmeziane, Youcef Imine,
 You can contact us by opening a new issue in the repository.
 
 ## How to cite?
-In case you are using the FLASH-RL for your research, please consider citing our work::
+In case you are using FLASH-RL for your research, please consider citing our work:
 
 ```BibTex
 @misc{bouaziz2023flashrl,
