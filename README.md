@@ -10,7 +10,8 @@
 [**Features**](#Features)
 | [**Tutorial**](https://github.com/Sofianebouaziz1/FLASH-RL/blob/main/tutorial.ipynb)
 | [**Structure**](#Code-structure)
-| [**Paper**](https://arxiv.org/abs/2311.06917)
+| [**Paper**](https://ieeexplore.ieee.org/abstract/document/10361025)
+| [**ArXiv**](https://arxiv.org/abs/2311.06917)
 | [**References**](#How-to-cite)
 
 ## Features
@@ -91,12 +92,13 @@ You can contact us by opening a new issue in the repository.
 In case you are using FLASH-RL for your research, please consider citing our work:
 
 ```BibTex
-@misc{bouaziz2023flashrl,
-      title={FLASH-RL: Federated Learning Addressing System and Static Heterogeneity using Reinforcement Learning}, 
-      author={Sofiane Bouaziz and Hadjer Benmeziane and Youcef Imine and Leila Hamdad and Smail Niar and Hamza Ouarnoughi},
-      year={2023},
-      eprint={2311.06917},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
+@INPROCEEDINGS{10361025,
+  author={Bouaziz, Sofiane and Benmeziane, Hadjer and Imine, Youcef and Hamdad, Leila and Niar, Smail and Ouarnoughi, Hamza},
+  booktitle={2023 IEEE 41st International Conference on Computer Design (ICCD)}, 
+  title={FLASH-RL: Federated Learning Addressing System and Static Heterogeneity using Reinforcement Learning}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={444-447},
+  doi={10.1109/ICCD58817.2023.00074}}
 ```
